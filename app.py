@@ -16,8 +16,8 @@ import plotly.express as px
 
 st.set_page_config(layout='wide')
 
-p1 = r'C:\Users\rkcas\Desktop\Project\district wise centroids.csv'
-p2 = r'C:\Users\rkcas\Desktop\Project\india-districts-census-2011.csv'
+p1 = r'district wise centroids.csv'
+p2 = r'india-districts-census-2011.csv'
 
 ll = pd.read_csv(p1)
 cencus = pd.read_csv(p2)
